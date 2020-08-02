@@ -9,11 +9,14 @@
 
   background: #f4fbff;
 
+  padding: 20px;
+
   width: 48%;
   margin: 1%;
 }
 
 .event img {
+  border-radius: 10px;
   width: 100%;
   object-fit: cover;
 }

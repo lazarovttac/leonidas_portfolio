@@ -65,11 +65,33 @@
     margin-top: -200px;
   }
 
+  .hero {
+    padding: 20px;
+  }
+
   .hero h1 {
     font-size: 30px;
   }
 }
 @media screen and (max-width: 480px) {
+  .hero {
+    display: block;
+  }
+
+  .hero img {
+    margin: 0;
+    width: 100%;
+  }
+  .hero h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  br {
+    display: inline;
+  }
+
   .project-details {
     width: auto;
     font-size: 12px;
@@ -95,6 +117,10 @@
   .hero h1 {
     font-size: 20px;
   }
+
+  .contact {
+    height: 100px;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -104,7 +130,8 @@
   .event-details {
     margin: 5px;
   }
-  .wrapper {
-    padding: 10px 0px 5px 10px;
+
+  .footer {
+    font-size: 10px;
   }
 }

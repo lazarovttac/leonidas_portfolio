@@ -1,6 +1,8 @@
 .hero {
   height: auto;
 
+  padding: 20px;
+
   background-color: #1b2127;
 
   display: flex;
