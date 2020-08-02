@@ -64,6 +64,10 @@
     margin: auto;
     margin-top: -200px;
   }
+
+  .hero h1 {
+    font-size: 30px;
+  }
 }
 @media screen and (max-width: 480px) {
   .project-details {
@@ -88,7 +92,7 @@
     margin: 10px;
   }
 
-  .project-details {
+  .hero h1 {
     font-size: 20px;
   }
 }
@@ -99,5 +103,8 @@
   }
   .event-details {
     margin: 5px;
+  }
+  .wrapper {
+    padding: 10px 0px 5px 10px;
   }
 }

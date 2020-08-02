@@ -1,5 +1,5 @@
 .hero {
-  height: 300px;
+  height: auto;
 
   background-color: #1b2127;
 
@@ -10,6 +10,18 @@
   flex-wrap: wrap;
 }
 
+.wrapper {
+  padding: 20px 0px 10px 40px;
+  flex-wrap: nowrap;
+}
+
 .hero-image {
   object-fit: cover;
+
+  width: 50%;
+}
+
+.hero h1 {
+  font-size: 40px;
+  width: 50%;
 }
