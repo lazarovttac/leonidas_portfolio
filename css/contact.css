@@ -1,0 +1,65 @@
+.contact {
+  background: #056fff;
+  color: white;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*
+.social {
+}
+*/
+
+.social-link {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+
+  background-size: 50px 50px;
+
+  margin: 0 20px;
+}
+
+.social-link.twitter {
+  background-image: url("../IMAGES-Port/twitter.svg");
+}
+
+.social-link.facebook {
+  background-image: url("../IMAGES-Port/facebook.svg");
+}
+
+.social-link.github {
+  background-image: url("../IMAGES-Port/github.svg");
+}
+
+.social-link.instagram {
+  background-image: url("../IMAGES-Port/instagram.svg");
+}
+
+/*
+.form-email input {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px 5px 25px;
+  background-image: url("../IMAGES-Port/envelope.svg");
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 5px;
+}
+
+.form-email button {
+  display: block;
+  background: transparent;
+  border-style: solid;
+
+  color: white;
+  border-color: white;
+  padding: 10px 0px;
+  border-radius: 5px;
+  width: 100px;
+  margin-top: 10px;
+}
+*/

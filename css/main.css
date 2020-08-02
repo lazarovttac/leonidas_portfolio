@@ -1,0 +1,116 @@
+/*
+Reglas: { } Estan conformadas por:
+Selectores: Identificadores de elementos html
+Declaraciones: Todo lo que hacemos con determinado selector }dentro de las llaves{
+Propiedades: caracteristicas que cambiamos de sierto elemento en la declaracion del mismo
+Valores: valores que les asignamos a las caracteristicas
+
+Selector de etiqueta (nombre de un tag)
+header {
+}
+
+Selector descendente (hijo de un tag)
+body header div nav ol li a {
+}
+
+Selector de clases ( . + nombre de una clase)
+.link {
+}
+
+Selector de ids ( # + id)
+#potafolio {
+}
+
+
+
+REGLA:
+selector {
+  DECLARACIÓN:
+  propiedad: valor;
+}
+
+FLEX
+
+
+.flex-box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex-direction: row;
+}
+
+CHILDREN .box {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  border: 1px solid red;
+
+  flex-shrink: 1;
+  flex-shrink: 0;
+}
+
+*/
+
+/* gris oscuro = #1d252c:
+gris claro = #626262;
+background gris = #1b2127; 
+celeste =  #026fff;
+*/
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 0;
+  background: #fafafa;
+}
+
+p,
+a {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 150%;
+  color: white;
+
+  margin: 0;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.wrapper {
+  max-width: 1000px;
+  width: 100%;
+
+  flex: 1;
+
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  width: inherit;
+  flex-wrap: inherit;
+
+  margin: 0 auto;
+}

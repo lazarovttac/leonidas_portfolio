@@ -1,0 +1,45 @@
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event {
+  border-radius: 10px;
+  overflow: hidden;
+
+  background: #f4fbff;
+
+  width: 48%;
+  margin: 1%;
+}
+
+.event img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.event-details {
+  margin: 20px 40px;
+  margin-top: -40px;
+  background: white;
+
+  text-align: center;
+
+  position: relative;
+  padding: 20px;
+}
+.event-description {
+  text-align: left;
+}
+.event-url {
+  border: 1px solid #026fff;
+  border-radius: 10px;
+
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #026fff;
+}
+
+.experience-title {
+  margin-left: 20px;
+}

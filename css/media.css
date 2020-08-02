@@ -1,0 +1,92 @@
+@media screen and (max-width: 1024px) {
+  body {
+  }
+}
+@media screen and (max-width: 767px) {
+  .header {
+    display: block;
+
+    height: auto;
+  }
+
+  .header ol {
+    display: initial;
+  }
+  .header ol li {
+    height: 20px;
+    padding: 10px 5px;
+  }
+
+  .project {
+    display: block;
+  }
+  .project-details {
+    width: auto;
+    font-size: 16px;
+  }
+  .project-title {
+    font-size: 1.5em;
+    margin-bottom: 0.3em;
+  }
+  .project-url {
+    font-size: 1em;
+  }
+  .project-course {
+    font-size: 1.7em;
+  }
+  .project-date {
+    font-size: 1em;
+  }
+  .project-description {
+    font-size: 0.8em;
+  }
+
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 0.3em 0;
+  }
+
+  .project-image-container {
+    width: auto;
+  }
+  .project-image-container img {
+    width: 100%;
+  }
+
+  .event {
+    width: 100%;
+    padding: 20px;
+  }
+  .event-details {
+    width: 80%;
+
+    margin: auto;
+    margin-top: -200px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .project-details {
+    width: auto;
+    font-size: 12px;
+  }
+  .event {
+    padding: 20px;
+  }
+  .event-details {
+    width: auto;
+    margin: 5px;
+  }
+  .footer {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .event {
+    padding: 20px;
+  }
+  .event-details {
+    margin: 5px;
+  }
+}
