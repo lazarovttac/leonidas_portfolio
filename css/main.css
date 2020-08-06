@@ -58,6 +58,10 @@ background gris = #1b2127;
 celeste =  #026fff;
 */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
   margin: 0;

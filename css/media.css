@@ -25,20 +25,20 @@
     font-size: 16px;
   }
   .project-title {
-    font-size: 1.5em;
+    font-size: 2em;
     margin-bottom: 0.3em;
   }
   .project-url {
     font-size: 1em;
   }
   .project-course {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
   .project-date {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   .project-description {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
   .project-course,
@@ -73,15 +73,14 @@
     font-size: 30px;
   }
 
-
-  .burger-wrapper{
+  .burger-wrapper {
     display: flex;
   }
-  .burger-button{
+  .burger-button {
     display: block;
   }
 
-  .menu{
+  .menu {
     position: fixed;
     background: #333;
     z-index: 4;
@@ -93,19 +92,16 @@
     left: -100vw;
 
     padding-top: 50px;
-    transition: .3s;
-  
+    transition: 0.3s;
   }
 
-  .menu li{
+  .menu li {
     margin: 10px 0;
   }
 
-  .menu.is-active{
+  .menu.is-active {
     left: 0;
   }
-
-
 }
 @media screen and (max-width: 480px) {
   .hero {
