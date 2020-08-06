@@ -72,6 +72,40 @@
   .hero h1 {
     font-size: 30px;
   }
+
+
+  .burger-wrapper{
+    display: flex;
+  }
+  .burger-button{
+    display: block;
+  }
+
+  .menu{
+    position: fixed;
+    background: #333;
+    z-index: 4;
+
+    width: 50vw;
+    height: 100vh;
+
+    top: 0;
+    left: -100vw;
+
+    padding-top: 50px;
+    transition: .3s;
+  
+  }
+
+  .menu li{
+    margin: 10px 0;
+  }
+
+  .menu.is-active{
+    left: 0;
+  }
+
+
 }
 @media screen and (max-width: 480px) {
   .hero {

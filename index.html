@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>My Portfolio</title>
-    <link rel="icon" type="image/png" href="IMAGES-Port/favicon.png" />
+   
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap"
@@ -22,6 +22,10 @@
   <body>
     <header class="header">
       <div class="wrapper">
+        <figure class="burger-wrapper" id="burger-button">
+          <svg class="burger-button"xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"/></svg>
+
+        </figure>
         <figure class="logo">
           <!-- <img src="/IMAGES-Port/logo.png" alt="Logo" /> -->
 
@@ -42,7 +46,7 @@
               <a class="link" href="#experiencia">Experiencia</a>
             </li>
             <li>
-              <a class="link" href="#trabajo">Trabajemos Juntos</a>
+              <a class="link" href="#trabajo">Contacto</a>
             </li>
           </ol>
         </nav>
@@ -186,5 +190,38 @@
         </div>
       </div>
     </footer>
+    <script>
+
+      const ipad = window.matchMedia('screen and (max-width: 767px)');
+      const burgerButton = document.querySelector('#burger-button');
+      const menu = document.querySelector('.menu');
+
+
+      ipad.addListener(validation);
+        
+      function validation(event){
+        if(event.matches){
+          burgerButton.addEventListener('click', hideShow);
+          
+        }else{
+          burgerButton.removeEventListener('click', hideShow);
+
+        }
+      }
+      
+      
+
+      function hideShow(){
+        if (menu.classList.contains('is-active')) {
+          menu.classList.remove('is-active')
+          
+        }else{
+
+          menu.classList.add('is-active');
+        }
+        
+      }
+
+    </script>
   </body>
 </html>
